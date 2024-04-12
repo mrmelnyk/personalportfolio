@@ -1939,12 +1939,12 @@ input, select, textarea {
 
 /* Icons */
 
-	#icon {
+	.icon {
 		text-decoration: none;
 		text-decoration: none;
 	}
 
-		#icon:before {
+		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
@@ -1957,30 +1957,29 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
-		#icon:before {
+		.icon:before {
 			font-size: 1.25em;
 		}
 
-		#icon > .label {
+		.icon > .label {
 			display: none;
 		}
 
-		#icon.solid:before {
+		.icon.solid:before {
 			font-weight: 900;
 		}
 
-		#icon.brands:before {
+		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-		#icon.featured {
-			color: #EA8A95;
+		.icon.featured {
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
 		}
 
-			#icon.featured:before {
+			.icon.featured:before {
 				font-size: 6em;
 			}
 
