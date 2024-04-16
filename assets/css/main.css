@@ -1632,9 +1632,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.image.fit {
+		.image.fit img{
 			display: block;
 			width: 100%;
+			border-radius: 50%;
 		}
 
 		.image.featured {
